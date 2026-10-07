@@ -2,7 +2,7 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import * as api from "./api";
 import type { DeviceRuntime, FoundDevice, SavedDevice, WledState } from "./types";
 
-const STORAGE_KEY = "wled-pc-control.devices";
+const STORAGE_KEY = "ambient-pc-light.devices";
 const POLL_MS = 3000;
 /** After a local change, ignore polled state for this long (avoids slider "jumping back"). */
 const LOCAL_HOLD_MS = 1500;

@@ -16,7 +16,7 @@ import { useDeviceSockets } from "./useDeviceSockets";
 import { useSettings } from "./useSettings";
 import type { SavedDevice } from "./types";
 
-const SELECTED_KEY = "wled-pc-control.selected";
+const SELECTED_KEY = "ambient-pc-light.selected";
 const TWO_PANE_MIN_WIDTH = 820;
 
 function useNow(intervalMs: number) {

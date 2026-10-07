@@ -2,5 +2,5 @@
 #![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
 
 fn main() {
-    wled_pc_control_lib::run()
+    ambient_pc_light_lib::run()
 }

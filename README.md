@@ -1,4 +1,4 @@
-# WLED PC Control
+# Ambient PC Light
 
 A small Windows desktop app for all the [WLED](https://kno.wled.ge/) controllers on your local network.
 It is modelled on [WLED Native for Android](https://github.com/Moustachauve/WLED-Android): a list of your lights with

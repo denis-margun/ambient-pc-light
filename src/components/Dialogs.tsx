@@ -305,7 +305,7 @@ export function Drawer({
       <nav className="drawer" onClick={(e) => e.stopPropagation()}>
         <div className="drawer-header">
           <img src="/icon.png" alt="" />
-          <span>WLED PC Control</span>
+          <span>Ambient PC Light</span>
         </div>
         {item("add", "Add a device", onAdd)}
         {item("search", scanning ? "Scanning…" : "Scan network", onScan, scanning)}

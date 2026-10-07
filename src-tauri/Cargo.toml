@@ -1,11 +1,11 @@
 [package]
-name = "wled-pc-control"
+name = "ambient-pc-light"
 version = "0.1.0"
 description = "Control all WLED devices on your network"
 edition = "2021"
 
 [lib]
-name = "wled_pc_control_lib"
+name = "ambient_pc_light_lib"
 crate-type = ["staticlib", "cdylib", "rlib"]
 
 [build-dependencies]

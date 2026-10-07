@@ -2,7 +2,7 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import * as api from "./api";
 import type { FoundDevice, SavedDevice, WledInfo } from "./types";
 
-const STORAGE_KEY = "wled-pc-control.devices";
+const STORAGE_KEY = "ambient-pc-light.devices";
 /** Don't rewrite storage on every websocket message. */
 const SEEN_RESOLUTION_MS = 15000;
 

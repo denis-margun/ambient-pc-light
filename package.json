@@ -1,5 +1,5 @@
 {
-  "name": "wled-pc-control",
+  "name": "ambient-pc-light",
   "private": true,
   "version": "0.1.0",
   "type": "module",

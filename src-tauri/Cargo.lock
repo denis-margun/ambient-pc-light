@@ -33,6 +33,25 @@ dependencies = [
 ]
 
 [[package]]
+name = "ambient-pc-light"
+version = "0.1.0"
+dependencies = [
+ "futures",
+ "local-ip-address",
+ "mdns-sd",
+ "reqwest 0.12.28",
+ "serde",
+ "serde_json",
+ "tauri",
+ "tauri-build",
+ "tauri-plugin-autostart",
+ "tauri-plugin-opener",
+ "tauri-plugin-single-instance",
+ "tokio",
+ "windows-sys 0.59.0",
+]
+
+[[package]]
 name = "android_system_properties"
 version = "0.1.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -5226,25 +5245,6 @@ name = "wit-bindgen"
 version = "0.57.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "1ebf944e87a7c253233ad6766e082e3cd714b5d03812acc24c318f549614536e"
-
-[[package]]
-name = "wled-pc-control"
-version = "0.1.0"
-dependencies = [
- "futures",
- "local-ip-address",
- "mdns-sd",
- "reqwest 0.12.28",
- "serde",
- "serde_json",
- "tauri",
- "tauri-build",
- "tauri-plugin-autostart",
- "tauri-plugin-opener",
- "tauri-plugin-single-instance",
- "tokio",
- "windows-sys 0.59.0",
-]
 
 [[package]]
 name = "writeable"

@@ -9,7 +9,7 @@ export interface Settings {
   autoDiscover: boolean;
 }
 
-const KEY = "wled-pc-control.settings";
+const KEY = "ambient-pc-light.settings";
 const DEFAULTS: Settings = { theme: "auto", showOfflineLast: true, showHidden: false, autoDiscover: true };
 
 function load(): Settings {

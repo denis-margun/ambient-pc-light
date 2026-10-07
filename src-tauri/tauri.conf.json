@@ -1,8 +1,8 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "WLED PC Control",
+  "productName": "Ambient PC Light",
   "version": "0.1.0",
-  "identifier": "com.margu.wledpccontrol",
+  "identifier": "com.margu.ambientpclight",
   "build": {
     "beforeDevCommand": "npm run dev",
     "devUrl": "http://localhost:1420",
@@ -13,7 +13,7 @@
     "windows": [
       {
         "label": "main",
-        "title": "WLED PC Control",
+        "title": "Ambient PC Light",
         "visible": false,
         "width": 420,
         "height": 780,

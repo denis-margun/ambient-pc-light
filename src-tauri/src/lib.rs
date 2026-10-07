@@ -1,4 +1,4 @@
-//! WLED PC Control — Rust backend.
+//! Ambient PC Light — Rust backend.
 //!
 //! * Discovery: mDNS (`_wled._tcp.local.`) + optional /24 subnet scan of every
 //!   local IPv4 interface, each candidate is verified via `GET /json/info`.
@@ -282,7 +282,7 @@ fn build_tray(app: &tauri::App) -> tauri::Result<()> {
     let quit = MenuItem::with_id(app, "quit", "Quit", true, None::<&str>)?;
     let menu = Menu::with_items(app, &[&open, &quit])?;
     let mut tray = TrayIconBuilder::with_id("main")
-        .tooltip("WLED PC Control")
+        .tooltip("Ambient PC Light")
         .menu(&menu)
         .show_menu_on_left_click(false)
         .on_menu_event(|app, e| match e.id.as_ref() {
